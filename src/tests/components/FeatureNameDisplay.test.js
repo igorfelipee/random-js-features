@@ -6,7 +6,7 @@ import { FeatureNameDisplay } from '../../components/FeatureNameDisplay'
 Enzyme.configure({ adapter: new Adapter() })
 
 describe('FeatureNameDisplay should', () => {
-    test('Render an h1 tag with the featureName passed by props', () => {
+    test('Render the same featureName as passed by props', () => {
         const featureNameDisplay = Enzyme.shallow(
             <FeatureNameDisplay featureName="Async/Await" />
         )
