@@ -23,14 +23,14 @@ code {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #fcfcfc;
-    padding: 0 0 20px 0;
 }
 .featureName {
     box-sizing: border-box;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 0;
+    text-align: center;
     margin: 0;
-    background-color: #fdcb6e;
+    background-color: #f0db4f;
     color: white;
 }
 
@@ -52,4 +52,15 @@ code {
     padding: 20px 10px;
     font-size: 15px;
     color: #48dbfb;
+}
+.featureButton {
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    border: 0;
+    background-color: #f0db4f;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
